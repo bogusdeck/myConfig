@@ -17,6 +17,22 @@ git clone <your_repository_url>
 cd <repository_directory>
 
 echo "copy your desire files manually"
+echo "installing fonts"
+read -p "Do you want to install additional fonts for Processing? (Y/N): " choice
+
+if [[ $choice == [Yy] ]]; then
+    echo "Installing additional fonts for Processing..."
+    
+    sudo pacman -S --noconfirm noto-fonts adobe-source-code-pro-fonts adobe-source-sans-fonts adobe-source-serif-fonts adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts ttf-hanazono noto-fonts-emoji noto-fonts-emoji-apple ttf-dejavu ttf-liberation
+    
+    fc-cache -fv
+   
+    echo "Additional fonts installed successfully."
+elif [[ $choice == [Nn] ]]; then
+    echo "Skipping additional fonts installation."
+else
+    echo "Invalid choice. Please enter Y or N."
+fi
 
 
 echo "Configuration setup complete!"
