@@ -10,7 +10,7 @@ if ! command -v yay &> /dev/null; then
 fi
 echo "welcome to the elite club"
 echo "Installing required packages..."
-yay -S --noconfirm asciinema btop cava code fish font-manager hypr kitty min nemo neofetch neovim ranger zatura spotify-tui swaylock waybar webcord wlogout wofi ytui_music
+yay -S --noconfirm asciinema btop cava code fish font-manager hypr kitty min nemo neofetch neovim ranger zathura spotify-tui swaylock waybar webcord wlogout wofi ytui_music firefox
 
 echo "Cloning configuration files repository..."
 git clone <your_repository_url>
