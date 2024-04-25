@@ -1,0 +1,1 @@
+yay -S asciinema btop cava Code-OSS fish font-manager hypr kitty Min nemo neofetch nvim ranger zatura spotiff-tui swaylock waybar Webcord wlogout wofi ytui_music
