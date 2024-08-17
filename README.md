@@ -3,6 +3,19 @@
   <img src="https://github.com/Prome-theus/myConfig/assets/80052733/24ca6bc3-6d86-44ed-a966-56819af7dbf2" />
 </p>
 
+<div align="center">
+<p>If you like my work, consider buying me a coffee! ☕️</p>
+</div>
+
+
+<div align="center">
+<a href="https://www.buymeacoffee.com/bogusdeck" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" width="150" />
+</a>
+</div>
+
+
+
 # My Arch Linux Config
 
 This repository contains configuration files for various packages used in my Arch Linux setup. These configuration files are tailored to my preferences and workflow.
