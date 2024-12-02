@@ -1,0 +1,392 @@
+* {
+  /* font-family: Arimo Nerd Font; */
+  font-family: Noto Nerd Font;
+  font-size: 13px;
+}
+
+window#waybar {
+  /* background:rgba(0,0,0,0); */
+  /* background-color:#061115; */
+  background-color: #040a0c;  
+  /* background-color: #061115;  */
+  color: #ffffff;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  border-top: 10px transparent;
+  transition-duration: 0.5s;
+  border-radius: 15px;
+}
+
+#window#waybar.hidden { 
+  opacity: 0.2;
+}
+
+#workspaces button {
+  padding: 0px 2px;
+  color: #7984a4;
+  box-shadow: inset 0 -3px transparent;
+  border: none;
+  border-radius: 9.5px;
+  transition: 0.2s ease-in-out;
+}
+
+#workspaces button.focused {
+  color: #bf616a;
+  transition: 0.2s ease-in-out;
+}
+
+#workspaces button.active {
+  color: #61afef;
+  transition: 0.2s ease-in-out;
+}
+
+#workspaces button.urgent {
+  background-color: #eb4d4b;
+  transition: 0.2s ease-in-out;
+}
+
+#window {
+  color: #c0caf5;
+}
+
+#clock,
+#tray,
+#custom-weather,
+#custom-light_dark,
+#custom-weather.severe,
+#custom-weather.sunnyDay,
+#custom-weather.clearNight,
+#custom-weather.cloudyFoggyDay,
+#custom-weather.cloudyFoggyNight,
+#custom-weather.rainyDay,
+#custom-weather.rainyNight,
+#custom-weather.showyIcyDay,
+#custom-weather.snowyIcyNight,
+#custom-weather.default,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#mode,
+#idle_inhibitor,
+#mpd,
+#bluetooth,
+#custom-hyprPicker,
+#custom-dunst {
+  border-radius: 9.5px;
+  padding: 0px 7px;
+  margin: 5px 4px;
+  background-color: #1c252c;
+}
+
+#custom-spotify,
+#custom-media {
+  border-radius: 9.5px;
+  padding: 0px 7px;
+  margin: 5px 4px;
+  background-color: #1c252c;
+}
+
+/* #battery,
+  #cpu,
+  #memory,
+  #disk,
+  #temperature,
+  #backlight,
+  #network,
+  #pulseaudio,
+  #mode,
+  #idle_inhibitor,
+  #mpd,
+  #bluetooth,
+  #custom-hyprPicker */
+/* {
+    padding: 0 5px;
+    color: #e5e5e5;
+    border-radius: 9.5px;
+    background-color: #282a36;
+  }
+   */
+#window,
+#workspaces {
+  margin: 5px 4px;
+  padding: 0px 10px;
+  border-radius: 9.5px;
+  background-color: #1c252c;
+  transition: 0.2s ease-in-out;
+}
+
+#cpu {
+  color: #98c379;
+  /* background-color: #282a36; */
+  border-radius: 9.5px;
+  padding: 0px 7px;
+  margin: 5px 4px;
+  background-color: #1c252c;
+}
+
+#memory {
+  color: #c678dd;
+  /* background-color: #282a36; */
+  border-radius: 9.5px;
+  padding: 0px 7px;
+  margin: 5px 4px;
+  background-color: #1c252c;
+}
+
+#custom-power-menu {
+  /* border-radius: 9.5px; */
+  color: #e06c75;
+  /* background-color: #1c252c; */
+  /* border-radius: 9.5px; */
+  padding: 0 7px;
+  margin: 5px 4px;
+}
+
+#custom-launcher {
+  /* background-color: #008170; */
+  color: #e06c75;
+  border-radius: 15px;
+  margin-left: 10px;
+  padding: 4px;
+}
+
+#custom-weather.severe {
+  color: #eb937d;
+}
+
+#custom-weather.sunnyDay {
+  color: #c2ca76;
+}
+
+#custom-weather.clearNight {
+  color: #cad3f5;
+}
+
+#custom-weather.cloudyFoggyDay,
+#custom-weather.cloudyFoggyNight {
+  color: #c2ddda;
+}
+
+#custom-weather.rainyDay,
+#custom-weather.rainyNight {
+  color: #5aaca5;
+}
+
+#custom-weather.showyIcyDay,
+#custom-weather.snowyIcyNight {
+  color: #d6e7e5;
+}
+
+#custom-weather.default {
+  color: #dbd9d8;
+}
+
+.modules-left > widget:first-child > #workspaces {
+  margin-left: 0;
+}
+
+.modules-right > widget:last-child > #workspaces {
+  margin-right: 0;
+}
+
+#pulseaudio {
+  color: #e5c07b;
+}
+
+#backlight {
+  color: #56b6c2;
+}
+
+#clock {
+  color: #c8d2e0;
+}
+
+#battery {
+  color: #c0caf5;
+}
+
+#battery.charging,
+#battery.full,
+#battery.plugged {
+  color: #98c379;
+}
+
+@keyframes blink {
+  to {
+    color: #000000;
+  }
+}
+
+#battery.critical:not(.charging) {
+  color: #df5b61;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+label:focus {
+  background-color: #000000;
+}
+
+#disk {
+  background-color: #964b00;
+}
+
+#bluetooth {
+  color: #707d9d;
+}
+
+#bluetooth.disconnected {
+  color: #f53c3c;
+}
+
+#network {
+  color: #61afef;
+}
+
+#network.disconnected {
+  color: #f53c3c;
+}
+
+#custom-media {
+  background-color: #66cc99;
+  color: #2a5c45;
+  min-width: 100px;
+}
+
+#custom-media.custom-spotify {
+  margin: 5px 4px;
+  background-color: #1c252c;
+}
+
+#custom-media.custom-vlc {
+  background-color: #ffa000;
+}
+
+#temperature {
+  background-color: #f0932b;
+}
+
+#temperature.critical {
+  background-color: #eb4d4b;
+}
+
+#tray > .passive {
+  -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight;
+  background-color: #eb4d4b;
+}
+
+#idle_inhibitor {
+  background-color: #2d3436;
+}
+
+#idle_inhibitor.activated {
+  background-color: #ecf0f1;
+  color: #2d3436;
+}
+
+#mpd {
+  color: #2a5c45;
+}
+
+#mpd.disconnected {
+  color: #f53c3c;
+}
+
+#mpd.stopped {
+  color: #90b1b1;
+}
+
+#mpd.paused {
+  color: #51a37a;
+}
+
+#language {
+  background: #00b093;
+  color: #740864;
+  padding: 0 5px;
+  margin: 0 5px;
+  min-width: 16px;
+}
+
+#keyboard-state {
+  background: #97e1ad;
+  color: #000000;
+  padding: 0 0px;
+  margin: 0 5px;
+  min-width: 16px;
+}
+
+#keyboard-state > label {
+  padding: 0 5px;
+}
+
+#custom-spotify {
+  margin: 5px 4px;
+  padding: 0 10px;
+  color: #abb2bf;
+}
+
+#keyboard-state > label.locked {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+#custom-separator {
+  color: #42474f;
+}
+
+#custom-dunst {
+  color: #e0af68;
+}
+
+#custom-light_dark {
+  border-radius: 0px 10px 10px 0px;
+  margin-right: 10px;
+}
+/* #custom-cava {
+  color: #8FBC8F;
+  border-left: 0px;
+  border-right: 0px;
+  padding-bottom: 0px;
+  padding-right:7px;
+  font-family: "bargraph";
+  font-size: 22px;
+} */
+#custom-music.Playing {
+  background-color: #1c252c;
+  animation: gradient_f 9s cubic-bezier(0.72, 0.39, 0.21, 1) infinite;
+  /* text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.377); */
+  /* font-weight: bold; */
+  color: #8fbc8f;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border-radius: 7px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#custom-music.Paused,
+#custom-music.Stopped {
+  background: #1c252c;
+  color: #8fbc8f;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border-radius: 7px;
+  padding-left: 4px;
+  padding-right: 4px;
+  /* display:hidden; */
+}
+

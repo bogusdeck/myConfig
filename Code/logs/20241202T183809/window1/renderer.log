@@ -17,3 +17,9 @@
 2024-12-02 18:48:44.038 [error] [network] #11: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
 2024-12-02 18:49:29.172 [error] [network] #29: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
 2024-12-02 18:49:29.174 [error] [network] #28: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2024-12-02 19:14:07.672 [info] Settings Sync: Updating due to change in sessions
+2024-12-02 19:14:07.672 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-02 19:14:07.673 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-02 19:14:07.684 [info] Settings Sync: Updating due to change in sessions
+2024-12-02 19:14:07.684 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-02 19:14:07.685 [info] Settings Sync: Authentication providers updated ["github","microsoft"]

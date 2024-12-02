@@ -1,0 +1,42 @@
+2024-12-02 19:56:46.423 [info] [main] Log level: Info
+2024-12-02 19:56:46.423 [info] [main] Validating found git in: "git"
+2024-12-02 19:56:46.423 [info] [main] Using git "2.47.1" from "git"
+2024-12-02 19:56:46.423 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-02 19:56:46.423 [info] > git rev-parse --show-toplevel [4ms]
+2024-12-02 19:56:46.424 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-12-02 19:56:46.437 [info] [Model][openRepository] Opened repository: /home/office/Downloads/bday
+2024-12-02 19:56:46.441 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-02 19:56:46.453 [info] > git config --get commit.template [3ms]
+2024-12-02 19:56:46.466 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-12-02 19:56:46.477 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/office/Downloads/bday/.git/refs/remotes/origin/main'
+2024-12-02 19:56:46.485 [info] > git rev-parse refs/remotes/origin/main [9ms]
+2024-12-02 19:56:46.510 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-12-02 19:56:46.515 [info] > git status -z -uall [20ms]
+2024-12-02 19:56:46.559 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-12-02 19:56:46.572 [info] > git config --get commit.template [15ms]
+2024-12-02 19:56:46.575 [info] > git config --local branch.main.vscode-merge-base [6ms]
+2024-12-02 19:56:46.575 [warning] [Git][config] git config failed: Failed to execute git
+2024-12-02 19:56:46.633 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [43ms]
+2024-12-02 19:56:46.633 [info] > git reflog main --grep-reflog=branch: Created from *. [49ms]
+2024-12-02 19:56:46.667 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/office/Downloads/bday/.git/refs/remotes/origin/main'
+2024-12-02 19:56:46.668 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [29ms]
+2024-12-02 19:56:46.676 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2024-12-02 19:56:46.682 [info] > git rev-parse refs/remotes/origin/main [15ms]
+2024-12-02 19:56:46.696 [info] > git config --local branch.main.vscode-merge-base origin/main [14ms]
+2024-12-02 19:56:46.697 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms] (cancelled)
+2024-12-02 19:56:46.711 [info] > git status -z -uall [23ms] (cancelled)
+2024-12-02 19:56:46.712 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-02 19:56:46.720 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-12-02 19:56:46.728 [info] > git config --get commit.template [17ms]
+2024-12-02 19:56:46.801 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [74ms]
+2024-12-02 19:56:46.822 [info] > git merge-base refs/heads/main refs/remotes/origin/main [14ms]
+2024-12-02 19:56:46.829 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [29ms]
+2024-12-02 19:56:46.836 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/office/Downloads/bday/.git/refs/remotes/origin/main'
+2024-12-02 19:56:46.836 [info] > git diff --name-status -z --diff-filter=ADMR 1d4a9290a62988ef7fb03da98913b5a91ae93f73...refs/remotes/origin/main [7ms]
+2024-12-02 19:56:46.838 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-12-02 19:56:46.857 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-12-02 19:56:46.861 [info] > git status -z -uall [17ms]
+2024-12-02 19:56:46.972 [info] > git check-ignore -v -z --stdin [1ms]
+2024-12-02 19:56:52.887 [info] > git show --textconv :index.html [58ms]
+2024-12-02 19:56:52.887 [info] > git ls-files --stage -- /home/office/Downloads/bday/index.html [14ms]
+2024-12-02 19:56:52.981 [info] > git cat-file -s c39c81a17a4ad1d10b4b6140ed03c6255a17683a [16ms]

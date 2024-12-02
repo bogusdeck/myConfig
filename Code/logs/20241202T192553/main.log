@@ -1,0 +1,9 @@
+2024-12-02 19:25:54.645 [info] update#setState idle
+2024-12-02 19:26:24.072 [info] update#setState checking for updates
+2024-12-02 19:26:24.153 [info] update#setState idle
+2024-12-02 19:56:14.772 [error] Blocked vscode-file request vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.css
+2024-12-02 19:56:14.776 [error] Blocked vscode-file request vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.js
+2024-12-02 19:56:54.930 [info] Extension host with pid 157884 exited with code: 0, signal: unknown.
+2024-12-02 19:56:55.081 [error] [UtilityProcessWorker]: terminated unexpectedly with code 82, signal: unknown
+2024-12-02 20:03:01.092 [info] Extension host with pid 192428 exited with code: 0, signal: unknown.
+2024-12-02 20:03:01.144 [error] [UtilityProcessWorker]: terminated unexpectedly with code 82, signal: unknown

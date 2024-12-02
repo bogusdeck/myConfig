@@ -1,9 +1,9 @@
 {
 	"file_history":
 	[
-		"/home/office/.config/wofi/style.css",
-		"/home/office/.bashrc",
 		"/home/office/.bash_profile",
+		"/home/office/.bashrc",
+		"/home/office/.config/wofi/style.css",
 		"/home/office/.config/wofi/style/style-dark.css"
 	],
 	"folder_history":
@@ -169,67 +169,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/office/.bashrc",
-					"settings":
-					{
-						"buffer_size": 182,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-						[
-							3,
-							1,
-							"insert",
-							{
-								"characters": "\nf"
-							},
-							"AgAAAKwAAAAAAAAArQAAAAAAAAAAAAAArQAAAAAAAACuAAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKwAAAAAAAAArAAAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							4,
-							1,
-							"left_delete",
-							null,
-							"AQAAAK0AAAAAAAAArQAAAAAAAAABAAAAZg",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAK4AAAAAAAAArgAAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							5,
-							1,
-							"insert",
-							{
-								"characters": "exec"
-							},
-							"BAAAAK0AAAAAAAAArgAAAAAAAAAAAAAArgAAAAAAAACvAAAAAAAAAAAAAACvAAAAAAAAALAAAAAAAAAAAAAAALAAAAAAAAAAsQAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAK0AAAAAAAAArQAAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							6,
-							1,
-							"insert",
-							{
-								"characters": " fish"
-							},
-							"BQAAALEAAAAAAAAAsgAAAAAAAAAAAAAAsgAAAAAAAACzAAAAAAAAAAAAAACzAAAAAAAAALQAAAAAAAAAAAAAALQAAAAAAAAAtQAAAAAAAAAAAAAAtQAAAAAAAAC2AAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAALEAAAAAAAAAsQAAAAAAAAAAAAAAAADwvw"
-						]
-					]
-				},
-				{
-					"file": "/home/office/.bash_profile",
-					"settings":
-					{
-						"buffer_size": 68,
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-					]
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -263,9 +202,9 @@
 			},
 			"file_history":
 			[
-				"/home/office/.config/wofi/style.css",
-				"/home/office/.bashrc",
 				"/home/office/.bash_profile",
+				"/home/office/.bashrc",
+				"/home/office/.config/wofi/style.css",
 				"/home/office/.config/wofi/style/style-dark.css"
 			],
 			"find":
@@ -306,65 +245,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/office/.bashrc",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 182,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										178,
-										182
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/office/.bash_profile",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 68,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										68,
-										68
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -404,7 +284,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,790,850,1600,900,0",
+			"position": "0,1,0,0,0,0,0,790,421,1600,900,0",
 			"project": "",
 			"replace":
 			{

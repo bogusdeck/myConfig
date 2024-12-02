@@ -9,19 +9,14 @@
                 "folderUri": "file:///home/office/.config"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1733144885650"
-            }
-        ]
+        "emptyWindows": []
     },
     "profileAssociations": {
         "workspaces": {
-            "file:///home/office/.config": "__default__profile__"
+            "file:///home/office/.config": "__default__profile__",
+            "file:///home/office/Downloads/bday": "__default__profile__"
         },
-        "emptyWindows": {
-            "1733144885650": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "windowsState": {
         "lastActiveWindow": {
@@ -31,8 +26,8 @@
                 "mode": 1,
                 "x": 6,
                 "y": 6,
-                "width": 1588,
-                "height": 850
+                "width": 790,
+                "height": 852
             }
         },
         "openedWindows": []
@@ -102,6 +97,17 @@
                                     },
                                     "enabled": true,
                                     "label": "~/.config"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/office/Downloads/bday",
+                                        "path": "/home/office/Downloads/bday",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/bday"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -178,7 +184,8 @@
                     },
                     {
                         "id": "workbench.action.toggleAutoSave",
-                        "label": "A&&uto Save"
+                        "label": "A&&uto Save",
+                        "checked": true
                     },
                     {
                         "id": "submenuitem.MenubarPreferencesMenu",
@@ -468,7 +475,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel"
+                                    "label": "&&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "toggle.toggleCustomTitleBar",
@@ -668,6 +676,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -767,8 +782,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -1457,6 +1471,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
             },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
+            },
             "workbench.action.copyEditorToNewWindow": {
                 "label": "Ctrl+K O",
                 "isNative": false,
@@ -1705,7 +1724,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 300,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }

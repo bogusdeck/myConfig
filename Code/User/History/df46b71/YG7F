@@ -1,0 +1,198 @@
+{
+    "height": 20, // Waybar height (to be removed for auto height)
+    "layer": "top",
+    "position": "bottom",
+    "margin-top": 2,
+    "margin-left": 7,
+    "margin-bottom": 2,
+    "margin-right": 7,
+    "spacing": 2, // Gaps between modules (4px)
+    "modules-left": [
+        "custom/launcher",
+        "custom/separator",
+        "hyprland/workspaces",
+        "custom/separator",
+        "cpu",
+        "custom/separator",
+        "memory",
+        "custom/separator",
+        "custom/dunst",
+        "custom/separator",
+        "hyprland/window"
+    ],
+    "modules-center": [
+        "custom/spotify"
+    ],
+    "modules-right": [
+        "custom/music",
+        "backlight",
+        "custom/separator",
+        "pulseaudio",
+        "custom/separator",
+        "network",
+        "custom/separator",
+        "clock",
+        "custom/separator",
+        "tray",
+        "custom/separator",
+        "custom/power-menu"
+    ],
+    "hyprland/workspaces": {
+        "active-only": true,
+        "all-outputs": false,
+        "format": "{icon}",
+        "on-click": "activate",
+        "format-icons": {
+            "1": "",
+            "2": "󰙯",
+            "3": "",
+            "4": "󰨞",
+            "5": "󰆍",
+            "6": "",
+            "urgent": "",
+            "active": "󰪥",
+            "default": ""
+        },
+        "persistent-workspaces": {
+            "*": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+        },
+        "sort-by-number": true
+    },
+    "hyprland/window": {
+        "separate-outputs": true,
+        "format": "<span color=\"#cba6f7\">󰪥</span> {}"
+    },
+    "tray": {
+        "spacing": 5
+    },
+    "clock": {
+        "format": "<span color=\"#cba6f7\"></span> {:%I:%M %p }",
+        "format-alt": "<span color=\"#cba6f7\"></span> {:%a %b %d }",
+        "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+    "cpu": {
+        "interval": 10,
+        "format": "   {}%",
+        "max-length": 10,
+        "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'"
+    },
+    "memory": {
+        "interval": 30,
+        "format": "   {}%",
+        "format-alt": " {used:0.1f}G",
+        "max-length": 10
+    },
+    "network": {
+        "format-wifi": "{icon}  acha!",
+        "format-icons": [
+            "󰤟",
+            "󰤢",
+            "󰤥",
+            "󰤨"
+        ],
+        "format-ethernet": " taar lga di",
+        "format-disconnected": "睊 chud gye guru",
+        "on-click": "sh ~/.config/waybar/scripts/wofi-wifi-menu.sh",
+        "tooltip-format": "{icon}  {signalStrength}%",
+    },
+    "pulseaudio": {
+        "format": "{icon}  {volume}%",
+        "format-bluetooth": "   {volume}%",
+        "format-bluetooth-muted": "󰝟  shh!",
+        "format-muted": "󰝟",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": [
+                "",
+                "",
+                ""
+            ]
+        },
+        "on-click": "pavucontrol"
+    },
+    "bluetooth": {
+        "format": "  {status}",
+    },
+    "weather": {
+        "exec": "python3 ~/.config/waybar/scripts/weather.py",
+        "restart-interval": 300,
+        "return-type": "json",
+        "on-click": "xdg-open https://weather.com/en-IN/weather/today/l/cc76c08b470b5ddd6e64efd9ce8f256542cfed4ba52f6c00a30a74da519cd070"
+    },
+    "custom/spotify": {
+        "exec": "python3 ~/.config/waybar/scripts/mediaplayer.py --player spotify",
+        "format": "<span color=\"#1DB954\"></span> {}",
+        "return-type": "json",
+        "on-click": "playerctl play-pause --player spotify",
+        "on-double-click-right": "playerctl next",
+        "on-scroll-down": "playerctl previous",
+        "on-scroll-up": "playerctl next"
+    },
+    "custom/music": {
+        "format": "{icon}{}",
+        "format-icons": {
+            // "Playing": " ", // Uncomment if not using caway
+            "Paused": "",
+            "Stopped": "" // This stop symbol is RTL. So &#x202d; is left-to-right override.
+        },
+        "escape": true,
+        "tooltip": true,
+        "exec": "/home/manoj/.config/waybar/scripts/cavaa.sh",
+        "return-type": "json",
+        // "on-click": "playerctl play-pause",
+        // "on-scroll-up": "playerctl previous",
+        // "on-scroll-down": "playerctl next",
+        // "on-click-right": "g4music",
+        "max-length": 35
+    },
+    "custom/power-menu": {
+        "format": "⏻",
+        "on-click": "wlogout --protocol layer-shell",
+        "on-click-right": "systemctl poweroff"
+    },
+    "custom/launcher": {
+        "format": "  ",
+        "on-click": "wofi -p Search --show drun -a",
+    },
+    "custom/separator": {
+        "format": "|",
+        "interval": "once",
+        "tooltip": false
+    },
+    "custom/dunst": {
+        "exec": "~/.config/waybar/scripts/dunst.sh",
+        "on-click": "dunstctl set-paused toggle",
+        "restart-interval": 1
+    },
+    "custom/light_dark": {
+        "format": "󰐾",
+        "on-click": "~/.config/waybar/scripts/baraction light",
+        "tooltip": false
+    },
+    "pulseaudio#microphone": {
+        "format": "{format_source}",
+        "format-source": " {volume}%",
+        "format-source-muted": "",
+        "on-click": "pamixer --default-source -t",
+        "on-click-right": "pavucontrol",
+        "on-scroll-up": "pamixer --default-source -i 5",
+        "on-scroll-down": "pamixer --default-source -d 5",
+        "scroll-step": 5
+    }
+}

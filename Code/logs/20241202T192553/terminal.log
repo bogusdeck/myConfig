@@ -1,0 +1,3 @@
+2024-12-02 19:25:59.715 [warning] Couldn't attach to process Could not find pty 2 on pty host []
+2024-12-02 19:25:59.715 [warning] Attach to process failed for terminal [{"id":2,"pid":143999,"title":"fish","titleSource":2,"cwd":"","icon":{"id":"terminal-bash"},"hasChildProcesses":false,"shellIntegrationNonce":"91f3e6a5-8601-48e1-aadf-d5a2b6de540b","findRevivedId":true}]
+2024-12-02 19:56:54.880 [error] Exception occurred during xterm disposal [{}]
