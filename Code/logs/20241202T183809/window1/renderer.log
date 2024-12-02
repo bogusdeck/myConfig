@@ -1,0 +1,19 @@
+2024-12-02 18:38:11.811 [info] Started local extension host with pid 120903.
+2024-12-02 18:38:11.988 [info] Started initializing default profile extensions in extensions installation folder. file:///home/office/.vscode/extensions
+2024-12-02 18:38:12.753 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/office/.vscode/extensions
+2024-12-02 18:38:13.668 [info] Settings Sync: Updating due to initialize
+2024-12-02 18:38:13.669 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-02 18:38:13.669 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-02 18:38:17.228 [info] [perf] Render performance baseline is 33ms
+2024-12-02 18:38:43.704 [info] Started local extension host with pid 121345.
+2024-12-02 18:38:44.925 [info] Settings Sync: Updating due to initialize
+2024-12-02 18:38:44.925 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-02 18:38:44.926 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-02 18:38:46.283 [info] [perf] Render performance baseline is 39ms
+2024-12-02 18:39:11.208 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-02 18:39:11.208 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-02 18:48:39.872 [error] [network] #5: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2024-12-02 18:48:44.035 [error] [network] #12: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2024-12-02 18:48:44.038 [error] [network] #11: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2024-12-02 18:49:29.172 [error] [network] #29: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2024-12-02 18:49:29.174 [error] [network] #28: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled

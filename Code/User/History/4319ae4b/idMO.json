@@ -1,0 +1,6 @@
+{
+    "editor.minimap.enabled": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "GitHub Dark Colorblind (Beta)"
+}

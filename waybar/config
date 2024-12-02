@@ -38,8 +38,8 @@
         "custom/power-menu"
     ],
     "hyprland/workspaces": {
-        "active-only": false,
-        "all-outputs": true,
+        "active-only": true,
+        "all-outputs": false,
         "format": "{icon}",
         "on-click": "activate",
         "format-icons": {

@@ -1,0 +1,29 @@
+2024-12-02 18:48:48.409 [info] Getting Manifest... github.github-vscode-theme
+2024-12-02 18:48:48.485 [info] Installing extension: github.github-vscode-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/office/.vscode/extensions/extensions.json","path":"/home/office/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"}}
+2024-12-02 18:48:49.284 [info] Extension signature verification result for github.github-vscode-theme: UnknownError. Executed: true. Duration: 20ms.
+2024-12-02 18:48:49.405 [info] Extracted extension to file:///home/office/.vscode/extensions/github.github-vscode-theme-6.3.5: github.github-vscode-theme
+2024-12-02 18:48:49.455 [info] Renamed to /home/office/.vscode/extensions/github.github-vscode-theme-6.3.5
+2024-12-02 18:48:49.515 [info] Extension installed successfully: github.github-vscode-theme vscode-userdata:/home/office/.vscode/extensions/extensions.json
+2024-12-02 18:49:16.676 [info] Uninstalling extension from the profile: github.github-vscode-theme@6.3.5 vscode-userdata:/home/office/.vscode/extensions/extensions.json
+2024-12-02 18:49:16.745 [info] Marked extension as uninstalled github.github-vscode-theme-6.3.5
+2024-12-02 18:49:16.771 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/office/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/office/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-12-02 18:49:17.042 [info] Successfully uninstalled extension from the profile github.github-vscode-theme@6.3.5 vscode-userdata:/home/office/.vscode/extensions/extensions.json
+2024-12-02 18:49:39.276 [info] Getting Manifest... teabyii.ayu
+2024-12-02 18:49:39.292 [info] Installing extension: teabyii.ayu {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/office/.vscode/extensions/extensions.json","path":"/home/office/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"}}
+2024-12-02 18:49:40.017 [info] Extension signature verification result for teabyii.ayu: UnknownError. Executed: true. Duration: 20ms.
+2024-12-02 18:49:40.415 [info] Extracted extension to file:///home/office/.vscode/extensions/teabyii.ayu-1.0.5: teabyii.ayu
+2024-12-02 18:49:40.488 [info] Renamed to /home/office/.vscode/extensions/teabyii.ayu-1.0.5
+2024-12-02 18:49:40.559 [info] Extension installed successfully: teabyii.ayu vscode-userdata:/home/office/.vscode/extensions/extensions.json
+2024-12-02 18:49:40.581 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/office/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/office/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
